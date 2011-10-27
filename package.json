@@ -15,7 +15,8 @@
   },
 
   "dependencies": {
-    "hubot": ">= 1.0.4"
+    "hubot": ">= 1.0.4",
+    "libxmljs": "> 0.0.0"
   },
 
   "directories":  {
