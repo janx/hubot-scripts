@@ -1,3 +1,8 @@
+# Interacting with unfuddle
+#
+# <project shortcut> #ticket_number - display unfuddle ticket
+#
+
 Http  = require 'http'
 Https = require 'https'
 Qs    = require 'querystring'
