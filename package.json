@@ -18,7 +18,7 @@
     "hubot": ">= 1.0.4",
     "libxmljs": "> 0.0.0",
     "redis": "0.6.7",
-    "mailer": ">= 0.6.7",
+    "nodemailer": ">= 0.2.3",
     "validator": ">= 0.3.0"
   },
 
