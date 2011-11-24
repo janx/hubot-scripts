@@ -46,6 +46,7 @@ module.exports = (robot) ->
           xml = XML.parseXmlString data
           if xml
             msg.send "[Socialspring ticket #" + msg.match[1] + "] " + xml.get('//summary').text()
+            msg.send "[component] " + xml.get('//component').text()
             msg.send "[status] " + xml.get('//status').text()
             msg.send "[resolution] " + xml.get('//resolution').text() + ": " + xml.get('//resolution-description').text()
             msg.send "[description] " + xml.get('//description').text()
